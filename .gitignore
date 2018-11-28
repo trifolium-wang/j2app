@@ -1,0 +1,9 @@
+/.idea
+/target
+/.idea/*
+*.iml
+/.project
+/.mymetadata
+/.classpath
+/.myeclipse/*
+/.settings/*
