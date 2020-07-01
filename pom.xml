@@ -18,13 +18,13 @@ limitations under the License.
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    <groupId>com.j2app</groupId>
+    <groupId>com.wxd.j2app</groupId>
     <artifactId>parent</artifactId>
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
 
     <modules>
-        <module>maven-plugin</module>
+        <module>j2app-maven-plugin</module>
         <module>example</module>
     </modules>
 
@@ -53,11 +53,11 @@ limitations under the License.
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <project.build.jdkVersion>1.7</project.build.jdkVersion>
+        <project.build.jdkVersion>1.8</project.build.jdkVersion>
     </properties>
 
     <build>
-        <defaultGoal>install</defaultGoal>
+        <defaultGoal>package</defaultGoal>
     </build>
 
 </project>
