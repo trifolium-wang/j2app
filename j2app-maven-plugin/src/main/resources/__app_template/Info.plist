@@ -5,51 +5,42 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>English</string>
 	<key>CFBundleDisplayName</key>
-	<string>J2app</string>
+	<string>#{appName}</string>
 	<key>CFBundleDocumentTypes</key>
-	<array>
-		<dict>
-			<key>CFBundleTypeOSTypes</key>
-			<array>
-				<string>****</string>
-				<string>fold</string>
-				<string>disk</string>
-			</array>
-			<key>CFBundleTypeRole</key>
-			<string>Viewer</string>
-		</dict>
-	</array>
-	<key>CFBundleExecutable</key>
-	<string>J2app</string>
-	<key>CFBundleIconFile</key>
-	<string>icon.icns</string>
-	<key>CFBundleIdentifier</key>
-	<string>com.wxd.j2app.J2app</string>
+	<array/>
 	<key>CFBundleInfoDictionaryVersion</key>
-	<string>1.1.0</string>
+    <string>6.0</string>
+	<key>CFBundleExecutable</key>
+	<string>j2app.sh</string>
+	<key>CFBundleIconFile</key>
+	<string>#{appIcon}</string>
+	<key>CFBundleIconName</key>
+    <string>#{appIcon}</string>
+	<key>CFBundleIdentifier</key>
+	<string>#{appIdentifier}</string>
+	<key>CFBundleVersion</key>
+    <string>#{appVersion}</string>
+	<key>CFBundleShortVersionString</key>
+    <string>#{appVersion}</string>
 	<key>CFBundleName</key>
-	<string>J2app</string>
+	<string>#{appName}</string>
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
-	<key>CFBundleShortVersionString</key>
-	<string>0.1.0</string>
 	<key>CFBundleSignature</key>
 	<string>????</string>
-	<key>CFBundleVersion</key>
-	<string>0.1.0</string>
+	<key>CFBundleSupportedPlatforms</key>
+    <array>
+        <string>MacOSX</string>
+    </array>
 	<key>LSHasLocalizedDisplayName</key>
 	<false/>
 	<key>NSAppleScriptEnabled</key>
-	<false/>
+	<true/>
 	<key>NSHumanReadableCopyright</key>
-	<string>Copyright © 2017,</string>
+	<string>#{appCopyright}</string>
 	<key>NSMainNibFile=</key>
 	<string>MainMenu</string>
 	<key>NSPrincipalClass</key>
-	<string>NSApplication</string>
-	<key>PyMainFileNames</key>
-	<array>
-		<string>__boot__</string>
-	</array>
+	<array/>
 </dict>
 </plist>

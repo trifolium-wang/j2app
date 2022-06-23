@@ -1,4 +1,4 @@
-package com.wxd.j2app.plugin.maven;
+package co.tunan.j2app.plugin.maven;
 
 import org.apache.maven.plugin.AbstractMojo;
 import org.apache.maven.plugin.MojoExecutionException;
@@ -18,6 +18,11 @@ public class HelpMojo extends AbstractMojo{
     @Override
     public void execute() throws MojoExecutionException, MojoFailureException {
         Log log = getLog();
-        log.info("这里是帮助文档");
+        log.info("help document:\n" +
+                "appName\n" +
+                "appVersion\n" +
+                "appIdentifier\n" +
+                "appIcon\n" +
+                "appCopyright");
     }
 }

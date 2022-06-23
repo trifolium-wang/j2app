@@ -1,1 +1,0 @@
-open 'http://blog.csdn.net/jiezhi2013'
